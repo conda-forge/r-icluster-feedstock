@@ -14,9 +14,9 @@ source:
   sha256: d97cdcba3b53cf10160c333976d2244c2ad5abb8154e194b1568b48376374326
 
 build:
+  noarch: generic
   merge_build_host: True  # [win]
-  number: 1
-  skip: true  # [win32]
+  number: 1001
   rpaths:
     - lib/R/lib/
     - lib/
@@ -50,8 +50,7 @@ about:
   summary: Integrative clustering of multiple genomic data types using a joint latent variable
     model.
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-3'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
 
 extra:
   recipe-maintainers:
