@@ -1,11 +1,11 @@
-About r-icluster
-================
+About r-icluster-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-icluster-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=iCluster
 
 Package license: GPL (>= 2)
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-icluster-feedstock/blob/main/LICENSE.txt)
 
 Summary: Integrative clustering of multiple genomic data types using a joint latent variable model.
 
